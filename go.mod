@@ -8,3 +8,5 @@ require (
 )
 
 replace github.com/micro-plat/hydra => ../../../github.com/micro-plat/hydra
+
+replace github.com/micro-plat/lib4go => ../../../github.com/micro-plat/lib4go
