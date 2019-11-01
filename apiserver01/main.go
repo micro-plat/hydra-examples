@@ -10,6 +10,7 @@ var app = hydra.NewApp(
 	hydra.WithDebug())
 
 func main() {
+	app.Micro("/order/request", request)
 	app.Micro("/order/request/:tp", request)
 	app.Start()
 }

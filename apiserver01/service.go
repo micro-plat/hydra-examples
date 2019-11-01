@@ -8,7 +8,7 @@ import (
 )
 
 func request(ctx *context.Context) (r interface{}) {
-	ctx.Log.Info("------query------")
+	ctx.Log.Info("------request------")
 	switch ctx.Request.Param.GetInt("tp") {
 	case 1:
 		return "success"
