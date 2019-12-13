@@ -16,10 +16,10 @@ func init() {
 	// 		NewServiceAuth("/single/apiserver/md5/auth@authserver.sas_debug", "/order/request")))
 
 	//保存签名secret的用户编号为可以通过merid获得
-	app.Conf.API.SetAuthes(conf.NewAuthes().
-		WithServiceAuth(conf.
-			NewServiceAuth("/single/apiserver/md5/auth@authserver.sas_debug", "/order/request").
-			WithUIDAlias("merid")))
+	// app.Conf.API.SetAuthes(conf.NewAuthes().
+	// 	WithServiceAuth(conf.
+	// 		NewServiceAuth("/single/apiserver/md5/auth@authserver.sas_debug", "/order/request").
+	// 		WithUIDAlias("merid")))
 
 	// //设置必须参数
 	// app.Conf.API.SetAuthes(conf.NewAuthes().
@@ -36,5 +36,11 @@ func init() {
 	// 			WithRequired("timestamp", "sign", "merid"),
 	// 		conf.NewServiceAuth("/single/apiserver/md5/auth@authserver.sas_debug", "/order/query").
 	// 			WithUIDAlias("merid")))
+
+	app.Conf.API.SetAuthes(conf.NewAuthes().
+		WithServiceAuth(conf.
+			NewServiceAuth("/single/apiserver/md5/auth@authserver.sas_debug", "/order/request").
+			WithConnect().Set("=", "&").SortAll().Auth().
+			WithUIDAlias("merid")))
 
 }
