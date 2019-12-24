@@ -18,6 +18,10 @@ func main() {
 	app.Micro("/order/request", component.NewRPCSerivce("/order/query@rpcserver01.hydra-examples", map[string]string{
 		"sysid": "abc",
 	}))
+	app.Micro("/order/request/ip", component.NewRPCSerivce("/order/query@192.168.4.121:8081", map[string]string{
+		"sysid": "abc",
+	}))
+
 	app.Start()
 }
 func query(ctx *context.Context) (r interface{}) {

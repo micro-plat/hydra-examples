@@ -51,6 +51,8 @@ func request(ctx *context.Context) (r interface{}) {
 			return err
 		}
 		return ctx.Request.GetString("order_id")
+	case 13:
+		return ctx.GetContainer().GetPlatName()
 	default:
 		return fmt.Errorf("值错误，请传入1-12")
 	}
