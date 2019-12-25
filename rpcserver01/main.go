@@ -27,12 +27,13 @@ func main() {
 
 func queryMap(ctx *context.Context) (r interface{}) {
 	return map[string]string{
-		"sysid": ctx.Service,
+		"sysid": ctx.GetContainer().GetClusterNodes().GetCurrent().GetClusterID(),
 	}
 }
 
 func query(ctx *context.Context) (r interface{}) {
 	ctx.Log.Info("------query------")
+
 	return map[string]string{
 		"sysid": ctx.Request.GetString("sysid"),
 	}
