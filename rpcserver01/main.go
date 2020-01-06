@@ -15,12 +15,18 @@ var app = hydra.NewApp(
 
 func main() {
 	app.Micro("/order/query", query)
+
+	//完整服务名
 	app.Micro("/order/request", component.NewRPCSerivce("/order/query@rpcserver01.hydra-examples", map[string]string{
 		"sysid": "abc",
 	}))
+
+	//省略服务名
 	app.Micro("/order/request/2", component.NewRPCSerivce("/order/query", map[string]string{
 		"sysid": "abc",
 	}))
+
+	//IP调用
 	app.Micro("/order/request/ip", component.NewRPCCtxSerivce("/order/query@192.168.4.121:8081", queryMap))
 	app.Start()
 }

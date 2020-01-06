@@ -40,5 +40,4 @@ func query(ctx *context.Context) (r interface{}) {
 	ctx.Log.Info("------query------")
 	ctx.Log.Info(ctx.Request.GetString("sysid"))
 	return "success"
-
 }
