@@ -1,0 +1,228 @@
+
+--------------------begin------------------------
+
+[2020/11/17 09:57:13.915700][i][0c6c47b23] 初始化: /test/apiserver03/api/cluster/conf
+[2020/11/17 09:57:13.917255][i][0c6c47b23] 启动[api]服务...
+[2020/11/17 09:57:14.417839][i][61722147e] 启动成功(api,http://192.168.4.121:8080,[2])
+[2020/11/17 09:58:18.549470][i][b9139d96c] api.request: GET /request from 192.168.4.121
+[2020/11/17 09:58:18.549646][e][b9139d96c] acl.proxy脚本错误:Compile Error: module 'http' not found
+	at (main):2:9
+[2020/11/17 09:58:18.549674][e][b9139d96c] api.response: GET /request 510  214.851µs
+
+--------------------begin------------------------
+
+[2020/11/17 10:00:21.995154][i][7090d76b2] 初始化: /test/apiserver03/api/cluster/conf
+[2020/11/17 10:00:21.996615][i][7090d76b2] 启动[api]服务...
+[2020/11/17 10:00:22.497265][i][c82c7d599] 启动成功(api,http://192.168.4.121:8080,[2])
+[2020/11/17 10:00:25.136030][i][3c8cc26f6] api.request: GET /request from 192.168.4.121
+[2020/11/17 10:00:25.136393][e][3c8cc26f6] acl.proxy脚本错误:Compile Error: module 'http' not found
+	at (main):2:9
+[2020/11/17 10:00:25.136444][e][3c8cc26f6] api.response: GET /request 510  408.22µs
+[2020/11/17 10:00:42.637494][i][a4f251878] proxy 正在退出[interrupt]...
+[2020/11/17 10:00:42.637530][i][c82c7d599] 关闭[api]服务...
+
+--------------------begin------------------------
+
+[2020/11/17 10:00:51.266516][i][4922e9c72] 初始化: /test/apiserver03/api/cluster/conf
+[2020/11/17 10:00:51.267843][i][4922e9c72] 启动[api]服务...
+[2020/11/17 10:00:51.768262][i][6ec56df14] 启动成功(api,http://192.168.4.121:8080,[2])
+[2020/11/17 10:00:59.551332][i][c0b80fea1] api.request: GET /request from 192.168.4.121
+[2020/11/17 10:00:59.551476][e][c0b80fea1] acl.proxy脚本错误:Compile Error: module 'http' not found
+	at (main):2:9
+[2020/11/17 10:00:59.551493][e][c0b80fea1] api.response: GET /request 510  163.72µs
+
+--------------------begin------------------------
+
+[2020/11/17 10:01:18.649393][i][1d2744ed0] 初始化: /test/apiserver03/api/cluster/conf
+[2020/11/17 10:01:18.650348][i][1d2744ed0] 启动[api]服务...
+[2020/11/17 10:01:19.150965][i][0205c1444] 启动成功(api,http://192.168.4.121:8080,[2])
+[2020/11/17 10:01:23.602404][i][58302ad2a] api.request: GET /request from 192.168.4.121
+[2020/11/17 10:01:23.602620][e][58302ad2a] acl.proxy脚本错误:Compile Error: module 'request' not found
+	at (main):2:20
+[2020/11/17 10:01:23.602647][e][58302ad2a] api.response: GET /request 510  244.805µs
+
+--------------------begin------------------------
+
+[2020/11/17 10:03:25.460554][i][c5e180078] 初始化: /test/apiserver03/api/cluster/conf
+[2020/11/17 10:03:25.461581][i][c5e180078] 启动[api]服务...
+[2020/11/17 10:03:25.962320][i][2cfbfc18c] 启动成功(api,http://192.168.4.121:8080,[2])
+[2020/11/17 10:03:29.73722][i][7b6dee6ae] api.request: GET /request from 192.168.4.121
+[2020/11/17 10:03:29.73877][e][7b6dee6ae] acl.proxy脚本错误:Compile Error: module 'request' not found
+	at (main):2:20
+[2020/11/17 10:03:29.73906][e][7b6dee6ae] api.response: GET /request 510  185.332µs
+
+--------------------begin------------------------
+
+[2020/11/17 10:04:54.148606][i][f45fb8562] 初始化: /test/apiserver03/api/cluster/conf
+[2020/11/17 10:04:54.150130][i][f45fb8562] 启动[api]服务...
+[2020/11/17 10:04:54.650561][i][99be16c5c] 启动成功(api,http://192.168.4.121:8080,[2])
+[2020/11/17 10:04:56.834997][i][2b467859b] api.request: GET /request from 192.168.4.121
+[2020/11/17 10:04:56.835444][e][2b467859b] acl.proxy脚本错误:Compile Error: module 'request' not found
+	at (main):2:20
+[2020/11/17 10:04:56.835489][e][2b467859b] api.response: GET /request 510  496.166µs
+
+--------------------begin------------------------
+
+[2020/11/17 10:05:50.112710][i][51a5e44ea] 初始化: /test/apiserver03/api/cluster/conf
+[2020/11/17 10:05:50.113824][i][51a5e44ea] 启动[api]服务...
+[2020/11/17 10:05:50.614304][i][52078335f] 启动成功(api,http://192.168.4.121:8080,[2])
+
+--------------------begin------------------------
+
+[2020/11/17 10:06:27.667249][i][5394445d5] 初始化: /test/apiserver03/api/cluster/conf
+[2020/11/17 10:06:27.668827][i][5394445d5] 启动[api]服务...
+[2020/11/17 10:06:28.169356][i][0aa52f8d9] 启动成功(api,http://192.168.4.121:8080,[2])
+
+--------------------begin------------------------
+
+[2020/11/17 10:10:03.356715][i][371cb357d] 初始化: /test/apiserver03/api/cluster/conf
+[2020/11/17 10:10:03.357836][i][371cb357d] 启动[api]服务...
+[2020/11/17 10:10:03.858393][i][41a814d23] 启动成功(api,http://192.168.4.121:8080,[2])
+
+--------------------begin------------------------
+
+[2020/11/17 10:58:26.512115][i][295e59789] 初始化: /test/apiserver03/api/cluster/conf
+[2020/11/17 10:58:26.513751][i][295e59789] 启动[api]服务...
+[2020/11/17 10:58:27.14115][i][7115589ca] 启动成功(api,http://192.168.4.121:8080,[2])
+[2020/11/17 10:58:29.851540][i][8e4e1289d] api.request: GET /request from 192.168.4.121
+[2020/11/17 10:58:29.852588][e][8e4e1289d] -----[Recovery] panic recovered:
+acl.proxy添加go id出错:cannot convert to object: func() string
+/home/yanglei/work/src/github.com/micro-plat/hydra/conf/server/acl/proxy/proxy.go:72 (0x91f489)
+	GetConf: tgo.WithVariable(getVariable()...))
+/home/yanglei/work/src/github.com/micro-plat/hydra/conf/server/server.sub.http.go:142 (0x95be14)
+	HttpSub.getProxyFunc.func1: return proxy.GetConf(cnf)
+/home/yanglei/work/src/github.com/micro-plat/hydra/conf/server/server.sub.loader.go:29 (0x95bea3)
+	(*Loader).GetConf.func1: l.obj, l.err = l.f(l.cnf)
+/usr/local/go/src/sync/once.go:66 (0x47bfab)
+	(*Once).doSlow: f()
+/usr/local/go/src/sync/once.go:57 (0x95afab)
+	(*Once).Do: o.doSlow(f)
+/home/yanglei/work/src/github.com/micro-plat/hydra/conf/server/server.sub.loader.go:28 (0x95af41)
+	(*Loader).GetConf: l.once.Do(func() {
+/home/yanglei/work/src/github.com/micro-plat/hydra/conf/server/server.sub.http.go:261 (0x95ae92)
+	(*HttpSub).GetProxyConf: proxyObj, err := s.proxy.GetConf()
+/home/yanglei/work/src/github.com/micro-plat/hydra/hydra/servers/pkg/middleware/acl.proxy.go:15 (0xdead28)
+	Proxy.func1: proxy, err := ctx.APPConf().GetProxyConf()
+/home/yanglei/work/src/github.com/micro-plat/hydra/hydra/servers/pkg/middleware/middle.go:65 (0xdf0db9)
+	Handler.GinFunc.func1: h(v.(IMiddleContext))
+/home/yanglei/work/pkg/mod/github.com/gin-gonic/gin@v1.6.2/context.go:156 (0xd834fa)
+	(*Context).Next: c.handlers[c.index](c)
+/home/yanglei/work/src/github.com/micro-plat/hydra/hydra/servers/pkg/middleware/acl.white.go:19 (0xdeb4b5)
+	WhiteList.func1: ctx.Next()
+/home/yanglei/work/src/github.com/micro-plat/hydra/hydra/servers/pkg/middleware/middle.go:65 (0xdf0db9)
+	Handler.GinFunc.func1: h(v.(IMiddleContext))
+/home/yanglei/work/pkg/mod/github.com/gin-gonic/gin@v1.6.2/context.go:156 (0xd834fa)
+	(*Context).Next: c.handlers[c.index](c)
+/home/yanglei/work/src/github.com/micro-plat/hydra/hydra/servers/pkg/middleware/acl.black.go:17 (0xdea83b)
+	BlackList.func1: ctx.Next()
+/home/yanglei/work/src/github.com/micro-plat/hydra/hydra/servers/pkg/middleware/middle.go:65 (0xdf0db9)
+	Handler.GinFunc.func1: h(v.(IMiddleContext))
+/home/yanglei/work/pkg/mod/github.com/gin-gonic/gin@v1.6.2/context.go:156 (0xd834fa)
+	(*Context).Next: c.handlers[c.index](c)
+/home/yanglei/work/src/github.com/micro-plat/hydra/hydra/servers/pkg/middleware/trace.go:9 (0xdf2866)
+	Trace.func1: ctx.Next()
+/home/yanglei/work/src/github.com/micro-plat/hydra/hydra/servers/pkg/middleware/middle.go:65 (0xdf0db9)
+	Handler.GinFunc.func1: h(v.(IMiddleContext))
+/home/yanglei/work/pkg/mod/github.com/gin-gonic/gin@v1.6.2/context.go:156 (0xd834fa)
+	(*Context).Next: c.handlers[c.index](c)
+/home/yanglei/work/src/github.com/micro-plat/hydra/hydra/servers/pkg/middleware/logging.go:18 (0xdeee86)
+	Logging.func1: ctx.Next()
+/home/yanglei/work/src/github.com/micro-plat/hydra/hydra/servers/pkg/middleware/middle.go:65 (0xdf0db9)
+	Handler.GinFunc.func1: h(v.(IMiddleContext))
+/home/yanglei/work/pkg/mod/github.com/gin-gonic/gin@v1.6.2/context.go:156 (0xd834fa)
+	(*Context).Next: c.handlers[c.index](c)
+/home/yanglei/work/src/github.com/micro-plat/hydra/hydra/servers/pkg/middleware/recovery.go:19 (0xdf1741)
+	Recovery.func1: ctx.Next()
+/home/yanglei/work/src/github.com/micro-plat/hydra/hydra/servers/pkg/middleware/middle.go:65 (0xdf0db9)
+	Handler.GinFunc.func1: h(v.(IMiddleContext))
+/home/yanglei/work/pkg/mod/github.com/gin-gonic/gin@v1.6.2/context.go:156 (0xd834fa)
+	(*Context).Next: c.handlers[c.index](c)
+/home/yanglei/work/pkg/mod/github.com/gin-gonic/gin@v1.6.2/gin.go:409 (0xd8d619)
+	(*Engine).handleHTTPRequest: c.Next()
+/home/yanglei/work/pkg/mod/github.com/gin-gonic/gin@v1.6.2/gin.go:367 (0xd8ccdd)
+	(*Engine).ServeHTTP: engine.handleHTTPRequest(c)
+/usr/local/go/src/net/http/server.go:2843 (0x8eaf02)
+	serverHandler.ServeHTTP: handler.ServeHTTP(rw, req)
+/usr/local/go/src/net/http/server.go:1925 (0x8e660c)
+	(*conn).serve: serverHandler{c.server}.ServeHTTP(w, w.req)
+/usr/local/go/src/runtime/asm_amd64.s:1374 (0x471ea0)
+	goexit: BYTE	$0x90	// NOP
+
+[2020/11/17 10:58:29.852597][e][8e4e1289d] acl.proxy添加go id出错:cannot convert to object: func() string
+
+--------------------begin------------------------
+
+[2020/11/17 10:59:10.32036][i][853292515] 初始化: /test/apiserver03/api/cluster/conf
+[2020/11/17 10:59:10.33204][i][853292515] 启动[api]服务...
+[2020/11/17 10:59:10.533810][i][36b2bd29e] 启动成功(api,http://192.168.4.121:8080,[2])
+[2020/11/17 10:59:12.986982][i][22cc0b2ed] api.request: GET /request from 192.168.4.121
+[2020/11/17 10:59:12.987404][e][22cc0b2ed] Runtime Error: not callable: undefined
+	at (main):10:16
+	at (main):15:22
+[2020/11/17 10:59:12.987433][e][22cc0b2ed] api.response: GET /request 502 proxy 451.946µs
+[2020/11/17 11:00:42.532807][i][015922c6f] proxy 正在退出[interrupt]...
+[2020/11/17 11:00:42.532839][i][36b2bd29e] 关闭[api]服务...
+
+--------------------begin------------------------
+
+[2020/11/17 11:00:46.584865][i][d06af3e01] 初始化: /test/apiserver03/api/cluster/conf
+[2020/11/17 11:00:46.586324][i][d06af3e01] 启动[api]服务...
+[2020/11/17 11:00:47.86944][i][8b929c100] 启动成功(api,http://192.168.4.121:8080,[2])
+[2020/11/17 11:00:49.239018][i][5f5a18642] api.request: GET /request from 192.168.4.121
+[2020/11/17 11:00:49.239256][e][5f5a18642] acl.proxy脚本错误:Compile Error: unresolved reference 'ip'
+	at (main):8:32
+[2020/11/17 11:00:49.239283][e][5f5a18642] api.response: GET /request 510  266.735µs
+
+--------------------begin------------------------
+
+[2020/11/17 11:01:27.394097][i][32cde55ff] 初始化: /test/apiserver03/api/cluster/conf
+[2020/11/17 11:01:27.395582][i][32cde55ff] 启动[api]服务...
+[2020/11/17 11:01:27.895930][i][9ea1dc394] 启动成功(api,http://192.168.4.121:8080,[2])
+[2020/11/17 11:01:30.851960][i][461292d0c] api.request: GET /request from 192.168.4.121
+[2020/11/17 11:01:30.852181][e][461292d0c] acl.proxy脚本错误:Compile Error: unresolved reference 'http'
+	at (main):8:19
+[2020/11/17 11:01:30.852199][e][461292d0c] api.response: GET /request 510  251.064µs
+
+--------------------begin------------------------
+
+[2020/11/17 11:01:48.24027][i][d16647d13] 初始化: /test/apiserver03/api/cluster/conf
+[2020/11/17 11:01:48.25341][i][d16647d13] 启动[api]服务...
+[2020/11/17 11:01:48.525899][i][256e08551] 启动成功(api,http://192.168.4.121:8080,[2])
+[2020/11/17 11:01:52.79992][i][db1dff4e6] api.request: GET /request from 192.168.4.121
+[2020/11/17 11:01:52.80612][i][db1dff4e6] api.response: GET /request 200  631.024µs
+
+--------------------begin------------------------
+
+[2020/11/17 11:04:22.644505][i][4bb4a83f8] 初始化: /test/apiserver03/api/cluster/conf
+[2020/11/17 11:04:22.645950][i][4bb4a83f8] 启动[api]服务...
+[2020/11/17 11:04:23.146576][i][73aed4611] 启动成功(api,http://192.168.4.121:8080,[2])
+[2020/11/17 11:04:30.647393][i][e07864679] api.request: GET /request from 192.168.4.121
+[2020/11/17 11:04:30.647994][i][e07864679] api.response: GET /request 200  611.678µs
+[2020/11/17 11:06:04.320218][i][0978982c5] proxy 正在退出[interrupt]...
+[2020/11/17 11:06:04.320246][i][73aed4611] 关闭[api]服务...
+
+--------------------begin------------------------
+
+[2020/11/17 11:06:10.327861][i][8319e0634] 初始化: /test/apiserver03/api/cluster/conf
+[2020/11/17 11:06:10.329352][i][8319e0634] 启动[api]服务...
+[2020/11/17 11:06:10.829885][i][80d201221] 启动成功(api,http://192.168.4.121:8080,[2])
+[2020/11/17 11:06:12.731412][i][22badfa1c] api.request: GET /request from 192.168.4.121
+[2020/11/17 11:06:12.732166][e][22badfa1c] acl.proxy脚本错误:Compile Error: unresolved reference 'current'
+	at (main):15:130
+[2020/11/17 11:06:12.732224][e][22badfa1c] api.response: GET /request 510  816.029µs
+
+--------------------begin------------------------
+
+[2020/11/17 11:06:27.462915][i][8aa478d9f] 初始化: /test/apiserver03/api/cluster/conf
+[2020/11/17 11:06:27.463957][i][8aa478d9f] 启动[api]服务...
+[2020/11/17 11:06:27.964645][i][17cfba9ad] 启动成功(api,http://192.168.4.121:8080,[2])
+[2020/11/17 11:06:30.488667][i][d91864c77] api.request: GET /request from 192.168.4.121
+[2020/11/17 11:06:30.489408][i][d91864c77] api.response: GET /request 200  739.095µs
+
+--------------------begin------------------------
+
+[2020/11/17 11:07:47.717214][i][881bf53c4] 初始化: /test/apiserver03/api/cluster/conf
+[2020/11/17 11:07:47.718581][i][881bf53c4] 启动[api]服务...
+[2020/11/17 11:07:48.219153][i][a806dcd84] 启动成功(api,http://192.168.4.121:8080,[2])
+[2020/11/17 11:07:50.134574][i][f4c18e5fc] api.request: GET /request from 192.168.4.121
+[2020/11/17 11:07:50.135325][i][f4c18e5fc] api.response: GET /request 200  752.042µs
