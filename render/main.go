@@ -22,5 +22,7 @@ func main() {
 	app.Start()
 }
 func request(ctx hydra.IContext) interface{} {
-	return "success"
+	return map[string]interface{}{
+		"id": 101010,
+	}
 }
