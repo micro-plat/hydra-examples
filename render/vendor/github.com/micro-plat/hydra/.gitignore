@@ -1,0 +1,15 @@
+logs
+!*.go
+
+launch.json
+apiserver*
+rpcserver*
+mqcserver*
+cronserver*
+flowserver*
+webserver*
+wsserver*
+jwtserver*
+
+examples/conf
+logger.toml
